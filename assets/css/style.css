@@ -11,7 +11,7 @@
 height: auto;
 z-index: -1;
 position: absolute;
-opacity:calc(0.8)
+filter: brightness(0.5);
 }
 
 .container_text{
@@ -197,4 +197,23 @@ color: rgb(237, 235, 235);
 
 .download_h2{
     color: white;
+}
+
+
+
+.logo-header{
+
+    width:350px ;
+    margin-top: 160px;
+    margin-left: 110px;
+}
+
+
+.parr_header{
+    margin-top: 30px;
+    margin-left: 120px;
+    width: 520px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
 }
